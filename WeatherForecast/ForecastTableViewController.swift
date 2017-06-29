@@ -31,6 +31,7 @@ class ForecastTableViewController: UITableViewController {
             let task = URLSession.shared.dataTask(with: url!) {[weak self] (data, response, error) in
                 guard error == nil else {
                     print(error!)
+                    self?.showAlertErrorMessage(code: "1000", message: error!.localizedDescription)
                     return
                 }
                 DispatchQueue.main.async(execute: {
@@ -49,6 +50,12 @@ class ForecastTableViewController: UITableViewController {
     private func populateForecasts(_ weatherData: Data) {
         do {
             let jsonDict = try JSONSerialization.jsonObject(with: weatherData, options: []) as! NSDictionary
+            let returnCode = jsonDict.value(forKey: "cod") as! String
+            guard returnCode == "200" else {
+                let message = jsonDict.value(forKey: "message") as! String
+                showAlertErrorMessage(code: returnCode, message: message)
+                return
+            }
             let timestamps = jsonDict.value(forKeyPath: "list.dt") as! [Double]
             let temperaturesInKelvin = jsonDict.value(forKeyPath: "list.main.temp") as! [Double]
             let weatherDescriptions = jsonDict.value(forKeyPath: "list.weather.description") as! [[String]]
@@ -67,6 +74,14 @@ class ForecastTableViewController: UITableViewController {
         tableView.reloadData()
     }
 
+    
+    private func showAlertErrorMessage(code: String, message: String ) {
+        let errorMessage = "Error \(code): \(message)"
+        let alertError = UIAlertController(title: "Error", message: errorMessage, preferredStyle: UIAlertControllerStyle.alert)
+        let dismissAction = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default, handler: nil)
+        alertError.addAction(dismissAction)
+        present(alertError, animated: true, completion: nil)
+    }
 
     // MARK: - Table view data source
 
