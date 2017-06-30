@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xak-ci-IYI">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad12_9" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,29 +14,29 @@
             <objects>
                 <tableViewController id="HPh-NJ-2Vl" customClass="MainViewController" customModule="WeatherForecast" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ow3-8Z-nT8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="stS-rS-gj2">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="63" id="fGD-0R-Gqf" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="63"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1366" height="63"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fGD-0R-Gqf" id="HZ8-bE-2aK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1366" height="63"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="61" id="OAe-0H-9Tq" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="63" width="375" height="61"/>
+                                        <rect key="frame" x="0.0" y="63" width="1366" height="61"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OAe-0H-9Tq" id="OMG-xY-xGr">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1366" height="61"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City Name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="5QM-9C-803">
-                                                    <rect key="frame" x="77.5" y="15" width="220" height="30"/>
+                                                    <rect key="frame" x="573" y="15" width="220" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="220" id="SlO-Si-0fv"/>
                                                     </constraints>
@@ -52,14 +52,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="6Kf-i3-fOe" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="124" width="375" height="51"/>
+                                        <rect key="frame" x="0.0" y="124" width="1366" height="51"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Kf-i3-fOe" id="xyr-oz-VdA">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1366" height="51"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NX3-rI-6XR">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
+                                                    <rect key="frame" x="668" y="10" width="30" height="30"/>
                                                     <state key="normal" title="GO"/>
                                                     <connections>
                                                         <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="KAq-0H-qdW"/>
@@ -73,14 +73,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="uGV-8G-qll" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="175" width="375" height="51"/>
+                                        <rect key="frame" x="0.0" y="175" width="1366" height="51"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uGV-8G-qll" id="6Ws-l1-q0q">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1366" height="51"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGo-je-POQ">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
+                                                    <rect key="frame" x="668" y="10" width="30" height="30"/>
                                                     <connections>
                                                         <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="8Kl-KQ-COF"/>
                                                     </connections>
@@ -89,346 +89,6 @@
                                             <constraints>
                                                 <constraint firstItem="OGo-je-POQ" firstAttribute="centerY" secondItem="6Ws-l1-q0q" secondAttribute="centerY" id="BYg-DI-hN6"/>
                                                 <constraint firstItem="OGo-je-POQ" firstAttribute="centerX" secondItem="6Ws-l1-q0q" secondAttribute="centerX" id="uVs-mG-JO4"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="Im5-j4-Vfh" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="226" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Im5-j4-Vfh" id="73W-wQ-qlS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVc-wB-ca5">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="LQ2-bX-EEg"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="lVc-wB-ca5" firstAttribute="centerY" secondItem="73W-wQ-qlS" secondAttribute="centerY" id="S6W-x0-iuc"/>
-                                                <constraint firstItem="lVc-wB-ca5" firstAttribute="centerX" secondItem="73W-wQ-qlS" secondAttribute="centerX" id="TUN-zv-YTM"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="rwM-1l-92a" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="277" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rwM-1l-92a" id="PDD-T0-mm7">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrB-nU-uYB">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="v2G-r5-eZM"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="CrB-nU-uYB" firstAttribute="centerX" secondItem="PDD-T0-mm7" secondAttribute="centerX" id="Bzo-i4-lxi"/>
-                                                <constraint firstItem="CrB-nU-uYB" firstAttribute="centerY" secondItem="PDD-T0-mm7" secondAttribute="centerY" id="LSo-XD-sok"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="KRe-Qj-yIj" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="328" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KRe-Qj-yIj" id="4Ib-Pa-vv0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcM-ry-Hcd">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="pzn-bP-gIB"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="kcM-ry-Hcd" firstAttribute="centerX" secondItem="4Ib-Pa-vv0" secondAttribute="centerX" id="iPL-Yr-p8y"/>
-                                                <constraint firstItem="kcM-ry-Hcd" firstAttribute="centerY" secondItem="4Ib-Pa-vv0" secondAttribute="centerY" id="jV2-62-pCk"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="5Rc-Gh-FBo" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="379" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Rc-Gh-FBo" id="GHi-En-CmL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fui-c5-0FD">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="dqQ-Xr-ETO"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Fui-c5-0FD" firstAttribute="centerY" secondItem="GHi-En-CmL" secondAttribute="centerY" id="960-NW-2PO"/>
-                                                <constraint firstItem="Fui-c5-0FD" firstAttribute="centerX" secondItem="GHi-En-CmL" secondAttribute="centerX" id="pl1-EV-Hfg"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="3Dw-RB-c8g" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="430" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Dw-RB-c8g" id="f0E-pg-IXv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzr-FG-RBa">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="ksB-LM-mlF"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Kzr-FG-RBa" firstAttribute="centerX" secondItem="f0E-pg-IXv" secondAttribute="centerX" id="3j5-p1-VD5"/>
-                                                <constraint firstItem="Kzr-FG-RBa" firstAttribute="centerY" secondItem="f0E-pg-IXv" secondAttribute="centerY" id="c2s-TP-myz"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="5Mo-Yt-IIW" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="481" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Mo-Yt-IIW" id="6wj-7V-LnD">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Db9-T7-b0X">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="EWE-vG-XBy"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Db9-T7-b0X" firstAttribute="centerX" secondItem="6wj-7V-LnD" secondAttribute="centerX" id="Bzg-uz-mvQ"/>
-                                                <constraint firstItem="Db9-T7-b0X" firstAttribute="centerY" secondItem="6wj-7V-LnD" secondAttribute="centerY" id="aQN-Tg-laK"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="zcQ-ZX-fcZ" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="532" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zcQ-ZX-fcZ" id="CeV-j6-9GL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3R-xL-mkz">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="Oew-EA-a4U"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="m3R-xL-mkz" firstAttribute="centerX" secondItem="CeV-j6-9GL" secondAttribute="centerX" id="Izr-Yc-Kyn"/>
-                                                <constraint firstItem="m3R-xL-mkz" firstAttribute="centerY" secondItem="CeV-j6-9GL" secondAttribute="centerY" id="Z4L-j0-RkR"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="LT4-CY-OHv" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="583" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LT4-CY-OHv" id="E6F-Yj-iN2">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHg-0a-Obo">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="cG8-gi-3vc"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="MHg-0a-Obo" firstAttribute="centerY" secondItem="E6F-Yj-iN2" secondAttribute="centerY" id="C0Q-TW-jOz"/>
-                                                <constraint firstItem="MHg-0a-Obo" firstAttribute="centerX" secondItem="E6F-Yj-iN2" secondAttribute="centerX" id="JMy-Cp-vHB"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="VQq-Bb-3dR" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="634" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VQq-Bb-3dR" id="5eW-VD-Hkr">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exU-kM-wdb">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="Ru5-3V-ovW"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="exU-kM-wdb" firstAttribute="centerY" secondItem="5eW-VD-Hkr" secondAttribute="centerY" id="bsV-Ch-2OW"/>
-                                                <constraint firstItem="exU-kM-wdb" firstAttribute="centerX" secondItem="5eW-VD-Hkr" secondAttribute="centerX" id="y7C-4L-xBX"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="8vv-Mb-bdA" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="685" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8vv-Mb-bdA" id="aJG-yg-D8x">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryf-SK-v0O">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="yh0-Bk-X9f"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="ryf-SK-v0O" firstAttribute="centerX" secondItem="aJG-yg-D8x" secondAttribute="centerX" id="J0J-P9-ZjJ"/>
-                                                <constraint firstItem="ryf-SK-v0O" firstAttribute="centerY" secondItem="aJG-yg-D8x" secondAttribute="centerY" id="fry-1I-Z5g"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="tgG-pM-goD" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="736" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tgG-pM-goD" id="c1T-ap-XBd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7c-RQ-4Xy">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="cAG-BX-NBx"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="S7c-RQ-4Xy" firstAttribute="centerY" secondItem="c1T-ap-XBd" secondAttribute="centerY" id="b38-yP-51f"/>
-                                                <constraint firstItem="S7c-RQ-4Xy" firstAttribute="centerX" secondItem="c1T-ap-XBd" secondAttribute="centerX" id="vkQ-mA-Cpr"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="Egu-8j-RE8" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="787" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Egu-8j-RE8" id="awJ-Ig-QLP">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQ3-2G-xqP">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="GI5-rx-sbh"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="yQ3-2G-xqP" firstAttribute="centerX" secondItem="awJ-Ig-QLP" secondAttribute="centerX" id="W3Z-BU-Xx2"/>
-                                                <constraint firstItem="yQ3-2G-xqP" firstAttribute="centerY" secondItem="awJ-Ig-QLP" secondAttribute="centerY" id="s7S-d1-Wgl"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="O8s-8o-eX7" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="838" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O8s-8o-eX7" id="4hk-tl-a0u">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOn-Ij-3Fc">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="jwG-9Z-2xF"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="cOn-Ij-3Fc" firstAttribute="centerX" secondItem="4hk-tl-a0u" secondAttribute="centerX" id="l4c-yk-8KM"/>
-                                                <constraint firstItem="cOn-Ij-3Fc" firstAttribute="centerY" secondItem="4hk-tl-a0u" secondAttribute="centerY" id="m9h-nI-8Wh"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="7dk-rC-3W0" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="889" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7dk-rC-3W0" id="ISj-yY-ouh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1M3-Kr-K1z">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="7co-Ie-A2m"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="1M3-Kr-K1z" firstAttribute="centerX" secondItem="ISj-yY-ouh" secondAttribute="centerX" id="Jpy-ke-Jy7"/>
-                                                <constraint firstItem="1M3-Kr-K1z" firstAttribute="centerY" secondItem="ISj-yY-ouh" secondAttribute="centerY" id="MMs-6V-d2z"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="cj5-lO-oX6" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="940" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cj5-lO-oX6" id="3Wh-w7-svj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQQ-qj-LoE">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="g8c-0e-gjj"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="tQQ-qj-LoE" firstAttribute="centerY" secondItem="3Wh-w7-svj" secondAttribute="centerY" id="joC-QV-FP2"/>
-                                                <constraint firstItem="tQQ-qj-LoE" firstAttribute="centerX" secondItem="3Wh-w7-svj" secondAttribute="centerX" id="vJd-v6-zsP"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="FFR-l6-sAf" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="991" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FFR-l6-sAf" id="t46-rl-dJE">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-HU-SPE">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="GPb-eZ-M0w"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="IW2-HU-SPE" firstAttribute="centerX" secondItem="t46-rl-dJE" secondAttribute="centerX" id="AdA-dh-W2g"/>
-                                                <constraint firstItem="IW2-HU-SPE" firstAttribute="centerY" secondItem="t46-rl-dJE" secondAttribute="centerY" id="CtX-3z-QXA"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="51" id="Kx9-34-weY" customClass="NoBorderTableViewCell" customModule="WeatherForecast" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="1042" width="375" height="51"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Kx9-34-weY" id="Rzk-gK-q2N">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ooG-H4-AqE">
-                                                    <rect key="frame" x="172.5" y="10" width="30" height="30"/>
-                                                    <connections>
-                                                        <action selector="goButtonTapped:" destination="HPh-NJ-2Vl" eventType="touchUpInside" id="vdO-gM-06y"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="ooG-H4-AqE" firstAttribute="centerY" secondItem="Rzk-gK-q2N" secondAttribute="centerY" id="2o5-VG-AOd"/>
-                                                <constraint firstItem="ooG-H4-AqE" firstAttribute="centerX" secondItem="Rzk-gK-q2N" secondAttribute="centerX" id="jG7-eS-uXJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -454,29 +114,29 @@
         <scene sceneID="oP1-Wq-Xrz">
             <objects>
                 <tableViewController id="pEa-aa-tt7" customClass="ForecastTableViewController" customModule="WeatherForecast" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xa5-QS-kj0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="68" sectionHeaderHeight="28" sectionFooterHeight="28" id="xa5-QS-kj0">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ForecastCell" textLabel="vox-Iq-2nZ" detailTextLabel="4AC-5h-qgq" style="IBUITableViewCellStyleValue1" id="1HH-0n-n0b">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ForecastCell" textLabel="vox-Iq-2nZ" detailTextLabel="4AC-5h-qgq" rowHeight="72" style="IBUITableViewCellStyleSubtitle" id="1HH-0n-n0b">
+                                <rect key="frame" x="0.0" y="28" width="1366" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1HH-0n-n0b" id="AAm-Cq-65B">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="1366" height="72"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" id="vox-Iq-2nZ">
-                                            <rect key="frame" x="15" y="13" width="30" height="18"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="vox-Iq-2nZ">
+                                            <rect key="frame" x="347" y="19" width="30" height="18"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" id="4AC-5h-qgq">
-                                            <rect key="frame" x="320.5" y="13" width="39.5" height="18"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" id="4AC-5h-qgq">
+                                            <rect key="frame" x="347" y="37" width="35" height="16"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -492,7 +152,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5k-Xt-jwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1976" y="113"/>
+            <point key="canvasLocation" x="1975.6954612005854" y="112.49999999999999"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="B6M-vs-f4s">

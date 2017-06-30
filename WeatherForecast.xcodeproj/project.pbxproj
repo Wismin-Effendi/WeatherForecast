@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24C463FEC4F5253117B9F3C1 /* Pods_WeatherForecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A1F9E7C33226DC874C7680 /* Pods_WeatherForecast.framework */; };
+		373906E71F069BCF002A15F3 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373906E61F069BCF002A15F3 /* WeatherResponse.swift */; };
 		374D66DC1F0439EA00A33BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D66DB1F0439EA00A33BE1 /* AppDelegate.swift */; };
 		374D66E11F0439EA00A33BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374D66DF1F0439EA00A33BE1 /* Main.storyboard */; };
 		374D66E31F0439EA00A33BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374D66E21F0439EA00A33BE1 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		13A1F9E7C33226DC874C7680 /* Pods_WeatherForecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherForecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373906E61F069BCF002A15F3 /* WeatherResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 		374D66D81F0439EA00A33BE1 /* WeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374D66DB1F0439EA00A33BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		374D66E01F0439EA00A33BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				374D66E71F0439EA00A33BE1 /* Info.plist */,
 				374D66F11F04410800A33BE1 /* Forecast.swift */,
 				374D66F31F04480500A33BE1 /* Utility.swift */,
+				373906E61F069BCF002A15F3 /* WeatherResponse.swift */,
 			);
 			path = WeatherForecast;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				374D66F41F04480500A33BE1 /* Utility.swift in Sources */,
 				374D66F01F0440CA00A33BE1 /* MainViewController.swift in Sources */,
 				374D66EE1F04409E00A33BE1 /* ForecastTableViewController.swift in Sources */,
+				373906E71F069BCF002A15F3 /* WeatherResponse.swift in Sources */,
 				374D66DC1F0439EA00A33BE1 /* AppDelegate.swift in Sources */,
 				37B670AB1F04666D00B515DF /* NoBorderTableViewCell.swift in Sources */,
 				374D66F21F04410800A33BE1 /* Forecast.swift in Sources */,
